@@ -1,0 +1,55 @@
+body {
+    background: #3c4354;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+#gameContainer {
+    width: 800px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+canvas {
+    background: linear-gradient(#8ecae6 60%, #f4d160 100%);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #222;
+}
+#gameMenu {
+    position: absolute;
+    width: 800px;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.92);
+    border-radius: 12px;
+    padding: 32px 0 24px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    z-index: 10;
+}
+#gameMenu h1 {
+    margin: 0 0 16px;
+    color: #15324c;
+    font-size: 2.3em;
+}
+#gameMenu button {
+    padding: 12px 36px;
+    font-size: 1.1em;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s;
+}
+#gameMenu button:hover {
+    background: #388e3c;
+}
+#gameMenu p {
+    margin: 8px 0 0;
+    color: #222;
+    font-size: 1.1em;
+}
